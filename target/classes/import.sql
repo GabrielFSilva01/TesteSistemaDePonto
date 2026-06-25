@@ -1,2 +1,2 @@
-INSERT INTO colaboradores (nome, email, cargo, ativo) VALUES ('Gabriel Silva', 'gabriel.silva@empresa.com', 'Desenvolvedor Java', true);
-INSERT INTO colaboradores (nome, email, cargo, ativo) VALUES ('Ana Souza', 'ana.souza@empresa.com', 'Designer UX', true);
+INSERT INTO colaboradores (nome, matricula, email, senha, cargo, role, ativo) VALUES ('Gabriel Silva', 'MAT-001', 'gabriel.silva@empresa.com', '$2a$10$placeholder_hash_gabriel', 'Desenvolvedor Java', 'ROLE_ESTAGIARIO', true);
+INSERT INTO colaboradores (nome, matricula, email, senha, cargo, role, ativo) VALUES ('Ana Souza', 'MAT-002', 'ana.souza@empresa.com', '$2a$10$placeholder_hash_ana', 'Designer UX', 'ROLE_ADMIN', true);
